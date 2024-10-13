@@ -11,7 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        secondary: "var(--secondary)",
+        tertiary: "var(--tertiary)",
       },
+      backgroundImage: {
+        'hero-background': "url('/image_1.jpg')"
+      }
     },
   },
   plugins: [],
